@@ -5,8 +5,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f419f15-d501-4ade-8a01-266dab556e6f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2f419f15-d501-4ade-8a01-266dab556e6f" name="Default Changelist" comment="- Change min sdk version">
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +40,14 @@
       <option name="presentableId" value="Default" />
       <updated>1605482418565</updated>
     </task>
+    <task id="LOCAL-00001" summary="- Change min sdk version">
+      <created>1608569604856</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608569604856</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -58,6 +66,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- Change min sdk version" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Change min sdk version" />
   </component>
   <component name="WindowStateProjectService">
     <state x="494" y="123" key="EnvironmentVariablesDialog" timestamp="1605544427568">
