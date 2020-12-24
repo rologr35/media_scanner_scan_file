@@ -4,8 +4,8 @@ version: 0.0.2
 homepage: https://github.com/rologr35/media_scanner_scan_file.git
 
 environment:
-  sdk: ">=2.5.0 <3.0.0"
-  flutter: ">=1.9.1"
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.20.0"
 
 dependencies:
   flutter:
