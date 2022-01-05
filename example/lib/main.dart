@@ -35,7 +35,7 @@ class _MyAppState extends State<MyApp> {
   }
 }
 
-Future<String> _scanFile(File f) async{
+Future<String?> _scanFile(File f) async{
   final result = await MediaScannerScanFile.scanFile(f.path);
   return result['filePath'];
 }
