@@ -1,6 +1,6 @@
 name: media_scanner_scan_file
 description: A new flutter plugin for Android MediaScanner.
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/rologr35/media_scanner_scan_file.git
 
 environment:

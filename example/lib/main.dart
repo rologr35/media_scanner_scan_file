@@ -13,29 +13,35 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  final File f = File('/storage/emulated/0/Pictures/example.png');
+  String path = '';
 
   @override
   void initState() {
     super.initState();
+    _scanFile(f);
   }
 
   @override
   Widget build(BuildContext context) {
-    File f = File('/storage/emulated/0/Pictures/example.png');
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Plugin example app'),
         ),
         body: Center(
-          child: Text('File path: ${_scanFile(f)}\n'),
+          child: Text('File path: $path'),
         ),
       ),
     );
   }
-}
 
-Future<String?> _scanFile(File f) async{
-  final result = await MediaScannerScanFile.scanFile(f.path);
-  return result['filePath'];
+  Future<String?> _scanFile(File f) async{
+    final result = await MediaScannerScanFile.scanFile(f.path);
+    setState(() {
+      path = result['filePath'];
+    });
+    return result['filePath'];
+  }
+
 }
