@@ -9,3 +9,7 @@
 ## 0.0.3
 
 * Migration to null safety
+
+## 0.0.4
+
+* Update example project
